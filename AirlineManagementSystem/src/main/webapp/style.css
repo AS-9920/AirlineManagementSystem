@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 100%;
+	font-family: sans-serif;
+}
+div,section, ul, li, a, header{
+	box-sizing: border-box;
+}
+header{
+	 width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+.btn{
+	background-color: black;
+	color:white;
+	margin-right: 10px;
+	margin: 05px;
+}
